@@ -77,3 +77,5 @@ which -s subl && export EDITOR="subl --wait"
 
 alias e=subl
 alias be="bundle exec"
+alias de="cd ~/Desktop"
+alias redo="rake db:drop && db:create && db:migrate && db:seed"
